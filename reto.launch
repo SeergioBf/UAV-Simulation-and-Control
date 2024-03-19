@@ -1,0 +1,14 @@
+<launch>
+    <node pkg="quad_control"
+        type="referencias_node" name="referencias_node" />
+
+    <node pkg="quad_control"
+        type="control_angular_node" name="control_angular_node"
+        output="screen" />
+    <node pkg="quad_control"
+        type="dinamica_node" name="dinamica_node"
+        output="screen" />
+    <node pkg="quad_control"
+        type="control_lineal_node" name="control_lineal_node"
+        output="screen" />
+</launch>
