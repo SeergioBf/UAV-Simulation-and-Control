@@ -1,2 +1,2 @@
-# mi_ws
-Proyecto de modelación y control de un UAV
+# UAV Nodes
+Proyecto de modelación, simulación y control (PI) de un UAV
